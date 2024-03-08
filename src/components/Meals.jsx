@@ -16,7 +16,7 @@ export default function Meals() {
   }
 
   if (error) {
-    return <Error title="Failed to fetch meals" message={error} />;
+    return <Error title="Erro ao recuperar cardápio" message={error} />;
   }
 
   // if (!data) {
